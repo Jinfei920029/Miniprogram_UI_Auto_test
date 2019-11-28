@@ -24,7 +24,7 @@ class MyTests(unittest.TestCase):
         self.driver = webdriver.Remote("http://127.0.0.1:4723/wd/hub", desired_caps)  # 连接Appium
         self.driver.implicitly_wait(8)
 
-    def test_miniprogram1(self, t=500):
+    def test005_shop(self, t=500):
         """进入商城"""
         time.sleep(3)
         window = self.driver.get_window_size()
@@ -40,13 +40,22 @@ class MyTests(unittest.TestCase):
         self.driver.find_element_by_xpath(shop_xpath).click()
         time.sleep(2)
         #判断页面是否正确
-        bestsale_xpath = '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[2]/android.widget.FrameLayout/android.widget.FrameLayout[1]/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout[2]/android.webkit.WebView/android.widget.Button/android.view.View[3]/android.view.View/android.view.View/android.view.View[2]/android.view.View[3]/android.view.View[1]'
-        text2 = self.driver.find_element_by_xpath(bestsale_xpath).get_attribute('text')
+        smartha_xpath = '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[2]/android.widget.FrameLayout/android.widget.FrameLayout[1]/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout[2]/android.webkit.WebView/android.widget.Button/android.view.View[3]/android.view.View/android.view.View/android.view.View[2]/android.view.View[3]/android.view.View[1]'
+        text2 = self.driver.find_element_by_xpath(smartha_xpath).get_attribute('text')
         text1 = '智能家电'
         if text2 == text1:
             print('进入商城页面')
         else:
             print('未查找到商城页面元素')
+
+    def test005_smartha_enter(self):
+        '''进入智能家电商城'''
+        smartha_xpath = '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[2]/android.widget.FrameLayout/android.widget.FrameLayout[1]/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout[2]/android.webkit.WebView/android.widget.Button/android.view.View[3]/android.view.View/android.view.View/android.view.View[2]/android.view.View[3]/android.view.View[1]'
+        self.driver.find_element_by_xpath(smartha_xpath).click()
+        time.sleep(3)
+        #750,1200
+        self.driver.tap([(750, 1200),(750, 1200)],100)
+        self.driver.back()
 
     def tearDown(self):
         self.driver.quit()

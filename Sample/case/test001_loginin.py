@@ -23,8 +23,8 @@ class MyTests(unittest.TestCase):
         self.driver = webdriver.Remote("http://127.0.0.1:4723/wd/hub", desired_caps)  # 连接Appium
         self.driver.implicitly_wait(8)
 
-    def test_miniprogram1(self, t=500):
-        """简单登录，注销测试"""
+    def test001_miniprogram_login(self, t=500):
+        """账号密码登录小程序"""
         time.sleep(3)
         window = self.driver.get_window_size()
         x1 = window['width'] * 0.5  # 起始x坐标
@@ -69,6 +69,8 @@ class MyTests(unittest.TestCase):
         self.driver.tap([(787, 1872)],100)#9([(787, 1872),(787, 1872)],100)
         time.sleep(1)
         inputbox_pwd_xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout[2]/android.widget.RelativeLayout/android.widget.FrameLayout[2]/android.widget.FrameLayout/android.widget.FrameLayout[1]/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout[2]/android.webkit.WebView/android.view.View[2]/android.view.View[2]/android.view.View[1]/android.view.View/android.view.View"
+        self.driver.find_element_by_xpath(inputbox_pwd_xpath).click()
+        time.sleep(4)
         self.driver.find_element_by_xpath(inputbox_pwd_xpath).click()
         time.sleep(2)
         self.driver.find_element_by_xpath(inputbox_pwd_xpath).click()

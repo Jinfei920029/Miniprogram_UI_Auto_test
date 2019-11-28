@@ -2,7 +2,7 @@ import unittest,time
 import os
 import sys
 sys.path.append(os.path.abspath(os.path.dirname(os.getcwd())))
-from testPlan.packages.HTMLTestRunner import HTMLTestRunner
+from Sample.packages.HTMLTestRunner import HTMLTestRunner
 
 test_dir = '../case'
 discover = unittest.defaultTestLoader.discover(test_dir, pattern='test*.py')
