@@ -3,16 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="942a0319-9b25-4c69-9f7b-2f2ca4af04df" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sample/Function/common.py" afterPath="$PROJECT_DIR$/Sample/Function/common.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sample/Function/login.py" afterPath="$PROJECT_DIR$/Sample/Function/login.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sample/run/runtest.py" afterPath="$PROJECT_DIR$/Sample/run/runtest.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sample/shop.py" afterPath="$PROJECT_DIR$/Sample/shop.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sample/case/test001_loginin.py" afterPath="$PROJECT_DIR$/Sample/case/test001_loginin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sample/case/test003_recipe.py" afterPath="$PROJECT_DIR$/Sample/case/test003_recipe.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sample/case/test004_runprogram.py" afterPath="$PROJECT_DIR$/Sample/case/test004_runprogram.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sample/case/test005_shop.py" afterPath="$PROJECT_DIR$/Sample/case/test005_shop.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sample/case/test006_my.py" afterPath="$PROJECT_DIR$/Sample/case/test006_my.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sample/case/test100_logout.py" afterPath="$PROJECT_DIR$/Sample/case/test100_logout.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MiniProgram.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -91,10 +81,10 @@
       <file leaf-file-name="common.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Sample/Function/common.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.34133333">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.25333333">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding>
-                <element signature="e#23#38#0" expanded="true" />
+                <element signature="e#37#52#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -144,7 +134,7 @@
         <entry file="file://$PROJECT_DIR$/Sample/case/test001_loginin.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="69" column="21" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -670,9 +660,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26626325" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26626325" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -763,7 +753,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
-            <element signature="e#23#38#0" expanded="true" />
+            <element signature="e#37#52#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -847,7 +837,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
-            <element signature="e#23#38#0" expanded="true" />
+            <element signature="e#37#52#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1089,14 +1079,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sample/case/test001_loginin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="69" column="21" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Sample/case/test100_logout.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1115,12 +1097,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Sample/case/test001_loginin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Sample/Function/common.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34133333">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.25333333">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
-            <element signature="e#23#38#0" expanded="true" />
+            <element signature="e#37#52#0" expanded="true" />
           </folding>
         </state>
       </provider>

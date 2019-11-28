@@ -1,3 +1,4 @@
+#coding:utf-8
 __author__ = 'a633335'
 import unittest
 from appium import webdriver
@@ -6,7 +7,7 @@ import time,os
 class Function:
 
     def isElementExist(self,element):
-        #ÅÐ¶ÏÔªËØ
+        #åˆ¤æ–­å…ƒç´ 
         flag=True
         driver=self.driver
         try:
