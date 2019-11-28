@@ -23,8 +23,8 @@ class MyTests(unittest.TestCase):
         self.driver = webdriver.Remote("http://127.0.0.1:4723/wd/hub", desired_caps)  # 连接Appium
         self.driver.implicitly_wait(8)
 
-    def test_miniprogram1(self, t=500):
-        """简单登录，注销测试"""
+    def test002_miniprogram1_logout(self, t=500):
+        """账号注销测试"""
         time.sleep(3)
         window = self.driver.get_window_size()
         x1 = window['width'] * 0.5  # 起始x坐标
