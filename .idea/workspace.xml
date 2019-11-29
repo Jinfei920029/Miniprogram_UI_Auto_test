@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="942a0319-9b25-4c69-9f7b-2f2ca4af04df" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sample/Function/common.py" afterPath="$PROJECT_DIR$/Sample/Function/common.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sample/case/test004_runprogram.py" afterPath="$PROJECT_DIR$/Sample/case/test004_runprogram.py" />
     </list>
     <ignored path="MiniProgram.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -17,23 +17,25 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/MiniProgram$Unittest_MyTests_test_miniprogram1__1_.coverage" NAME="Unittest MyTests.test_miniprogram1 (1) Coverage Results" MODIFIED="1574738763397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sample/case" />
-    <SUITE FILE_PATH="coverage/MiniProgram$Unittests_in_test003_recipe.coverage" NAME="Unittests in test003_recipe Coverage Results" MODIFIED="1574754056736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sample/case" />
+    <SUITE FILE_PATH="coverage/MiniProgram$Unittest_MyTests_test004_ha_control.coverage" NAME="Unittest MyTests.test004_ha_control Coverage Results" MODIFIED="1575015163249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sample/case" />
+    <SUITE FILE_PATH="coverage/MiniProgram$Unittests_in_test003_recipe.coverage" NAME="Unittests in test003_recipe Coverage Results" MODIFIED="1575014098751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sample/case" />
     <SUITE FILE_PATH="coverage/MiniProgram$Unittests_in_Minitest2.coverage" NAME="Unittests in Minitest2 Coverage Results" MODIFIED="1574320993702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sample" />
     <SUITE FILE_PATH="coverage/MiniProgram$Unittest_MyTests_test_miniprogram1__2_.coverage" NAME="Unittest MyTests.test_miniprogram1 (2) Coverage Results" MODIFIED="1574737322653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sample" />
     <SUITE FILE_PATH="coverage/MiniProgram$Unittest_MyTests_test006_my_page.coverage" NAME="Unittest MyTests.test006_my_page Coverage Results" MODIFIED="1574924713960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sample/case" />
     <SUITE FILE_PATH="coverage/MiniProgram$Unittests_in_shop.coverage" NAME="Unittests in shop Coverage Results" MODIFIED="1574750968766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sample" />
+    <SUITE FILE_PATH="coverage/MiniProgram$Unittests_in_test004_runprogram.coverage" NAME="Unittests in test004_runprogram Coverage Results" MODIFIED="1575015507846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sample/case" />
     <SUITE FILE_PATH="coverage/MiniProgram$Unittests_in_test006_my.coverage" NAME="Unittests in test006_my Coverage Results" MODIFIED="1574930854475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sample/case" />
     <SUITE FILE_PATH="coverage/MiniProgram$Unittest_MyTests_test_miniprogram1.coverage" NAME="Unittest MyTests.test_miniprogram1 Coverage Results" MODIFIED="1574728695490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sample" />
     <SUITE FILE_PATH="coverage/MiniProgram$Unittests_in_recipe.coverage" NAME="Unittests in recipe Coverage Results" MODIFIED="1574736929406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sample" />
     <SUITE FILE_PATH="coverage/MiniProgram$Unittests_in_Minitest4.coverage" NAME="Unittests in Minitest4 Coverage Results" MODIFIED="1574667657869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sample" />
     <SUITE FILE_PATH="coverage/MiniProgram$Unittests_in_Minitest1.coverage" NAME="Unittests in Minitest1 Coverage Results" MODIFIED="1574064548136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sample" />
     <SUITE FILE_PATH="coverage/MiniProgram$Unittests_in_runprogram.coverage" NAME="Unittests in runprogram Coverage Results" MODIFIED="1574729023963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sample/case" />
-    <SUITE FILE_PATH="coverage/MiniProgram$Unittests_in_test001_loginin.coverage" NAME="Unittests in test001_loginin Coverage Results" MODIFIED="1574748661942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sample/case" />
     <SUITE FILE_PATH="coverage/MiniProgram$runtest.coverage" NAME="runtest Coverage Results" MODIFIED="1574753549967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sample/run" />
+    <SUITE FILE_PATH="coverage/MiniProgram$Unittests_in_test001_loginin.coverage" NAME="Unittests in test001_loginin Coverage Results" MODIFIED="1575013914882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sample/case" />
     <SUITE FILE_PATH="coverage/MiniProgram$Unittests_in_test100_logout.coverage" NAME="Unittests in test100_logout Coverage Results" MODIFIED="1574927776018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sample/case" />
     <SUITE FILE_PATH="coverage/MiniProgram$Unittests_in_Minitest3.coverage" NAME="Unittests in Minitest3 Coverage Results" MODIFIED="1574388299110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sample" />
     <SUITE FILE_PATH="coverage/MiniProgram$Unittest_MyTests_test006_01_my_page.coverage" NAME="Unittest MyTests.test006_01_my_page Coverage Results" MODIFIED="1574925448851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sample/case" />
-    <SUITE FILE_PATH="coverage/MiniProgram$Unittests_in_test005_shop.coverage" NAME="Unittests in test005_shop Coverage Results" MODIFIED="1574753019240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sample/case" />
+    <SUITE FILE_PATH="coverage/MiniProgram$Unittests_in_test005_shop.coverage" NAME="Unittests in test005_shop Coverage Results" MODIFIED="1575015608581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sample/case" />
     <SUITE FILE_PATH="coverage/MiniProgram$Unittests_in_loginin.coverage" NAME="Unittests in loginin Coverage Results" MODIFIED="1574667238401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sample" />
     <SUITE FILE_PATH="coverage/MiniProgram$Unittest_MyTests_test002_miniprogram1_logout.coverage" NAME="Unittest MyTests.test002_miniprogram1_logout Coverage Results" MODIFIED="1574926576247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sample/case" />
   </component>
@@ -60,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/Sample/case/test006_my.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="85" column="23" selection-start-line="85" selection-start-column="23" selection-end-line="85" selection-end-column="23" />
+              <caret line="80" column="12" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="57" />
               <folding>
                 <element signature="e#38#53#0" expanded="true" />
               </folding>
@@ -78,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="common.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sample/Function/common.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25333333">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
               <folding>
                 <element signature="e#37#52#0" expanded="true" />
               </folding>
@@ -90,11 +92,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test005_shop.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test005_shop.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Sample/case/test005_shop.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.70933336">
+              <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -114,8 +116,10 @@
         <entry file="file://$PROJECT_DIR$/Sample/case/test004_runprogram.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
-              <folding />
+              <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
+              <folding>
+                <element signature="e#38#53#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,17 +138,17 @@
         <entry file="file://$PROJECT_DIR$/Sample/case/test001_loginin.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="13" />
+              <caret line="73" column="69" selection-start-line="73" selection-start-column="69" selection-end-line="73" selection-end-column="69" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sample/case/__init__.py">
+      <file leaf-file-name="test003_recipe.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sample/case/test003_recipe.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="45" column="41" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -178,13 +182,13 @@
         <option value="$PROJECT_DIR$/Sample/run/runtest.py" />
         <option value="$PROJECT_DIR$/Sample/case/test002_logout.py" />
         <option value="$PROJECT_DIR$/Sample/case/test003_recipe.py" />
-        <option value="$PROJECT_DIR$/Sample/case/test004_runprogram.py" />
         <option value="$PROJECT_DIR$/Sample/case/test001_loginin.py" />
         <option value="$PROJECT_DIR$/Sample/shop.py" />
         <option value="$PROJECT_DIR$/Sample/case/test005_shop.py" />
         <option value="$PROJECT_DIR$/Sample/case/test100_logout.py" />
         <option value="$PROJECT_DIR$/Sample/case/test006_my.py" />
         <option value="$PROJECT_DIR$/Sample/Function/common.py" />
+        <option value="$PROJECT_DIR$/Sample/case/test004_runprogram.py" />
       </list>
     </option>
   </component>
@@ -324,8 +328,8 @@
       <recent name="D:\JetBrains\MiniProgram\Sample\case" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test006_my">
-    <configuration default="false" name="Unittests in test006_my" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests in test005_shop">
+    <configuration default="false" name="Unittests in test001_loginin" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -336,7 +340,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="MiniProgram" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sample/case/test006_my.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sample/case/test001_loginin.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -348,7 +352,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittest MyTests.test006_my_page" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittests in test003_recipe" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -359,53 +363,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="MiniProgram" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sample/case/test006_my.py" />
-      <option name="CLASS_NAME" value="MyTests" />
-      <option name="METHOD_NAME" value="test006_my_page" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittest MyTests.test006_01_my_page" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sample/case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="MiniProgram" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sample/case/test006_my.py" />
-      <option name="CLASS_NAME" value="MyTests" />
-      <option name="METHOD_NAME" value="test006_01_my_page" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittests in test100_logout" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sample/case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="MiniProgram" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sample/case/test100_logout.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sample/case/test003_recipe.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -417,7 +375,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittest MyTests.test002_miniprogram1_logout" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittests in test004_runprogram" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -428,11 +386,57 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="MiniProgram" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sample/case/test100_logout.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sample/case/test004_runprogram.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest MyTests.test004_ha_control" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sample/case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MiniProgram" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sample/case/test004_runprogram.py" />
       <option name="CLASS_NAME" value="MyTests" />
-      <option name="METHOD_NAME" value="test002_miniprogram1_logout" />
+      <option name="METHOD_NAME" value="test004_ha_control" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in test005_shop" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sample/case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MiniProgram" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sample/case/test005_shop.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <option name="PUREUNITTEST" value="true" />
@@ -629,19 +633,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test006_my" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest MyTests.test006_my_page" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest MyTests.test006_01_my_page" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test100_logout" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest MyTests.test002_miniprogram1_logout" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test001_loginin" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test003_recipe" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test004_runprogram" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest MyTests.test004_ha_control" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test005_shop" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test006_my" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test100_logout" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest MyTests.test002_miniprogram1_logout" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest MyTests.test006_01_my_page" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest MyTests.test006_my_page" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test005_shop" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test004_runprogram" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest MyTests.test004_ha_control" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test003_recipe" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test001_loginin" />
       </list>
     </recent_temporary>
   </component>
@@ -659,7 +663,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26626325" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -778,7 +782,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
-          <folding />
+          <folding>
+            <element signature="e#38#53#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -862,7 +868,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
-          <folding />
+          <folding>
+            <element signature="e#38#53#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -928,7 +936,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
-          <folding />
+          <folding>
+            <element signature="e#38#53#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -983,7 +993,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
-          <folding />
+          <folding>
+            <element signature="e#38#53#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1024,25 +1036,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sample/case/test003_recipe.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Sample/case/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sample/case/test004_runprogram.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1071,14 +1068,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sample/case/test005_shop.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Sample/case/test100_logout.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1087,31 +1076,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Sample/case/test001_loginin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="73" column="69" selection-start-line="73" selection-start-column="69" selection-end-line="73" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Sample/case/test006_my.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="85" column="23" selection-start-line="85" selection-start-column="23" selection-end-line="85" selection-end-column="23" />
+          <caret line="80" column="12" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="57" />
           <folding>
             <element signature="e#38#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sample/case/test001_loginin.py">
+    <entry file="file://$PROJECT_DIR$/Sample/Function/common.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="13" />
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="e#37#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sample/case/test003_recipe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="41" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sample/Function/common.py">
+    <entry file="file://$PROJECT_DIR$/Sample/case/test004_runprogram.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25333333">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
           <folding>
-            <element signature="e#37#52#0" expanded="true" />
+            <element signature="e#38#53#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sample/case/test005_shop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.70933336">
+          <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
