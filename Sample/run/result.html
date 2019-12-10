@@ -189,9 +189,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>Test report Mini</h1>
-<p class='attribute'><strong>Start Time:</strong> 2019-11-26 15:32:31</p>
-<p class='attribute'><strong>Duration:</strong> 0:06:29.430000</p>
-<p class='attribute'><strong>Status:</strong> Pass 3 Error 3</p>
+<p class='attribute'><strong>Start Time:</strong> 2019-12-02 14:15:39</p>
+<p class='attribute'><strong>Duration:</strong> 0:12:15.411000</p>
+<p class='attribute'><strong>Status:</strong> Pass 7 Error 3</p>
 
 <p class='description'>用例执行情况：</p>
 </div>
@@ -231,26 +231,52 @@ function showOutput(id, name) {
 </tr>
 
 <tr id='pt1.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test001_miniprogram_login: 账号密码登录小程序</div></td>
+    <td class='none'><div class='testcase'>test001_miniprogram_login: 登录并进入家电列表页面</div></td>
     <td colspan='5' align='center'>pass</td>
 </tr>
 
 <tr class='passClass'>
-    <td>test002_logout.MyTests</td>
-    <td>1</td>
-    <td>1</td>
+    <td>test003_discovery.MyTests</td>
+    <td>2</td>
+    <td>2</td>
     <td>0</td>
     <td>0</td>
-    <td><a href="javascript:showClassDetail('c2',1)">Detail</a></td>
+    <td><a href="javascript:showClassDetail('c2',2)">Detail</a></td>
 </tr>
 
 <tr id='pt2.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test002_miniprogram1_logout: 账号注销测试</div></td>
+    <td class='none'><div class='testcase'>test003_01_recipe_detail: 进入菜谱详情</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt2.1')" >
+        pass</a>
+
+    <div id='div_pt2.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt2.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt2.1: Yes,找到页面元素我的家电
+进入苹果李子填馅火鸡菜谱
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt2.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test003_02_recipe_like: 进入菜谱点赞</div></td>
     <td colspan='5' align='center'>pass</td>
 </tr>
 
 <tr class='errorClass'>
-    <td>test003_recipe.MyTests</td>
+    <td>test004_runprogram.MyTests</td>
     <td>1</td>
     <td>0</td>
     <td>0</td>
@@ -259,7 +285,7 @@ function showOutput(id, name) {
 </tr>
 
 <tr id='ft3.1' class='none'>
-    <td class='errorCase'><div class='testcase'>test003_recipe_detail: 进入菜谱详情</div></td>
+    <td class='errorCase'><div class='testcase'>test004_ha_control: 家电控制测试</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
@@ -274,58 +300,8 @@ function showOutput(id, name) {
         <pre>
         
 ft3.1: Traceback (most recent call last):
-  File "D:\JetBrains\MiniProgram\Sample\case\test003_recipe.py", line 40, in test003_recipe_detail
-    text2 = self.driver.find_element_by_xpath(ha_xpath).get_attribute('text')
-  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
-    return self.find_element(by=By.XPATH, value=xpath)
-  File "D:\python\lib\site-packages\appium\webdriver\webdriver.py", line 274, in find_element
-    return self.execute(RemoteCommand.FIND_ELEMENT, {
-  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "D:\python\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
-    raise wde
-  File "D:\python\lib\site-packages\appium\webdriver\errorhandler.py", line 24, in check_response
-    super(MobileErrorHandler, self).check_response(response)
-  File "D:\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
-
-
-
-        </pre>
-    </div>
-    <!--css div popup end-->
-
-    </td>
-</tr>
-
-<tr class='errorClass'>
-    <td>test004_runprogram.MyTests</td>
-    <td>1</td>
-    <td>0</td>
-    <td>0</td>
-    <td>1</td>
-    <td><a href="javascript:showClassDetail('c4',1)">Detail</a></td>
-</tr>
-
-<tr id='ft4.1' class='none'>
-    <td class='errorCase'><div class='testcase'>test004_ha_control: 家电控制测试</div></td>
-    <td colspan='5' align='center'>
-
-    <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft4.1')" >
-        error</a>
-
-    <div id='div_ft4.1' class="popup_window">
-        <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft4.1').style.display = 'none' " >
-           [x]</a>
-        </div>
-        <pre>
-        
-ft4.1: Traceback (most recent call last):
-  File "D:\JetBrains\MiniProgram\Sample\case\test004_runprogram.py", line 38, in test004_ha_control
-    text2 = self.driver.find_element_by_xpath(ha_xpath).get_attribute('text')
+  File "D:\JetBrains\MiniProgram\Sample\case\test004_runprogram.py", line 41, in test004_ha_control
+    self.driver.find_element_by_xpath(start_xpath).click()
   File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
     return self.find_element(by=By.XPATH, value=xpath)
   File "D:\python\lib\site-packages\appium\webdriver\webdriver.py", line 274, in find_element
@@ -352,28 +328,44 @@ selenium.common.exceptions.NoSuchElementException: Message: An element could not
 <tr class='errorClass'>
     <td>test005_shop.MyTests</td>
     <td>2</td>
-    <td>1</td>
     <td>0</td>
-    <td>1</td>
-    <td><a href="javascript:showClassDetail('c5',2)">Detail</a></td>
+    <td>0</td>
+    <td>2</td>
+    <td><a href="javascript:showClassDetail('c4',2)">Detail</a></td>
 </tr>
 
-<tr id='pt5.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test005_shop: 进入商城</div></td>
+<tr id='ft4.1' class='none'>
+    <td class='errorCase'><div class='testcase'>test005_shop: 进入商城</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt5.1')" >
-        pass</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft4.1')" >
+        error</a>
 
-    <div id='div_pt5.1' class="popup_window">
+    <div id='div_ft4.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt5.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft4.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt5.1: 进入商城页面
+ft4.1: Traceback (most recent call last):
+  File "D:\JetBrains\MiniProgram\Sample\case\test005_shop.py", line 40, in test005_shop
+    self.driver.find_element_by_xpath(shop_xpath).click()
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "D:\python\lib\site-packages\appium\webdriver\webdriver.py", line 274, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\python\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+    raise wde
+  File "D:\python\lib\site-packages\appium\webdriver\errorhandler.py", line 24, in check_response
+    super(MobileErrorHandler, self).check_response(response)
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
 
 
         </pre>
@@ -383,23 +375,23 @@ pt5.1: 进入商城页面
     </td>
 </tr>
 
-<tr id='ft5.2' class='none'>
-    <td class='errorCase'><div class='testcase'>test005_smartha_enter</div></td>
+<tr id='ft4.2' class='none'>
+    <td class='errorCase'><div class='testcase'>test005_smartha_enter: 进入智能家电商城</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft5.2')" >
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft4.2')" >
         error</a>
 
-    <div id='div_ft5.2' class="popup_window">
+    <div id='div_ft4.2' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft5.2').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft4.2').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-ft5.2: Traceback (most recent call last):
-  File "D:\JetBrains\MiniProgram\Sample\case\test005_shop.py", line 53, in test005_smartha_enter
+ft4.2: Traceback (most recent call last):
+  File "D:\JetBrains\MiniProgram\Sample\case\test005_shop.py", line 54, in test005_smartha_enter
     self.driver.find_element_by_xpath(smartha_xpath).click()
   File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
     return self.find_element(by=By.XPATH, value=xpath)
@@ -424,10 +416,130 @@ selenium.common.exceptions.NoSuchElementException: Message: An element could not
     </td>
 </tr>
 
+<tr class='passClass'>
+    <td>test006_my.MyTests</td>
+    <td>3</td>
+    <td>3</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c5',3)">Detail</a></td>
+</tr>
+
+<tr id='pt5.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test006_01_my_page: 我的页面测试</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt5.1')" >
+        pass</a>
+
+    <div id='div_pt5.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt5.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt5.1: 进入“我的”页面
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt5.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test006_02_my_recipefavor: 收藏菜谱页面</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt5.2')" >
+        pass</a>
+
+    <div id='div_pt5.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt5.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt5.2: 进去“我的”页面
+还没有收藏菜谱，点击控件去收藏
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt5.3' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test006_03_my_hamanage: 家电管理页面</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt5.3')" >
+        pass</a>
+
+    <div id='div_pt5.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt5.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt5.3: 进入“我的”页面
+进入家电管理页面
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='passClass'>
+    <td>test100_logout.MyTests</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c6',1)">Detail</a></td>
+</tr>
+
+<tr id='pt6.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test002_miniprogram1_logout: 账号注销测试</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt6.1')" >
+        pass</a>
+
+    <div id='div_pt6.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt6.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt6.1: 找到注销控件
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
 <tr id='total_row'>
     <td>Total</td>
-    <td>6</td>
-    <td>3</td>
+    <td>10</td>
+    <td>7</td>
     <td>0</td>
     <td>3</td>
     <td>&nbsp;</td>

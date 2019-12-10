@@ -24,7 +24,7 @@ class MyTests(unittest.TestCase):
         self.driver = webdriver.Remote("http://127.0.0.1:4723/wd/hub", desired_caps)  # 连接Appium
         self.driver.implicitly_wait(8)
 
-    def test003_recipe_detail(self, t=500):
+    def test003_01_recipe_detail(self, t=500):
         """进入菜谱详情"""
         time.sleep(3)
         window = self.driver.get_window_size()
@@ -54,7 +54,32 @@ class MyTests(unittest.TestCase):
         time.sleep(3)
         recipeid_text = self.driver.find_element_by_xpath(recipeid_xpath).get_attribute('text')
         print("进入%s菜谱" %(recipeid_text))
-        time.sleep(10)
+        time.sleep(5)
+
+    def test003_02_recipe_like(self, t=500):
+        """进入菜谱点赞"""
+        time.sleep(3)
+        window = self.driver.get_window_size()
+        x1 = window['width'] * 0.5  # 起始x坐标
+        y1 = window['height'] * 0.2  # y1坐标，滑动起始点
+        y2 = window['height'] * 0.7  # y2坐标，滑动末尾点
+        self.driver.swipe(x1,y1,x1,y2,t) # 页面下拉
+        time.sleep(2)
+        self.driver.find_element_by_id('com.tencent.mm:id/ka').click() # 点击进入小程序
+        time.sleep(5)
+        '''点击进入菜谱页面'''
+        recipe_xpath = '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[2]/android.widget.FrameLayout/android.widget.FrameLayout[1]/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout[2]/android.webkit.WebView/android.widget.Button/android.view.View[5]/android.view.View/android.view.View/android.view.View[2]'
+        self.driver.find_element_by_xpath(recipe_xpath).click()
+        time.sleep(3)
+        '''进入菜谱详情'''
+        recipeid_xpath = '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[2]/android.widget.FrameLayout/android.widget.FrameLayout[1]/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout[2]/android.webkit.WebView/android.widget.Button/android.view.View[3]/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.view.View[1]/android.view.View[2]/android.view.View[1]'
+        self.driver.find_element_by_xpath(recipeid_xpath).click()
+        time.sleep(3)
+        like_xpath = '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout[2]/android.widget.RelativeLayout/android.widget.FrameLayout[2]/android.widget.FrameLayout/android.widget.FrameLayout[1]/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout[2]/android.webkit.WebView/android.view.View/android.view.View/android.view.View[2]/android.view.View[1]'
+        self.driver.find_element_by_xpath(like_xpath).click()
+        time.sleep(3)
+
+
     def tearDown(self):
         self.driver.quit()
 

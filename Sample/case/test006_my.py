@@ -25,7 +25,7 @@ class MyTests(unittest.TestCase):
         self.driver.implicitly_wait(8)
 
 
-    '''def test006_01_my_page(self, t=500):
+    def test006_01_my_page(self, t=500):
         """我的页面测试"""
         time.sleep(3)
         window = self.driver.get_window_size()
@@ -45,10 +45,10 @@ class MyTests(unittest.TestCase):
             print("进入“我的”页面")
         else:
             print("页面不正确")
-    '''
+
 
     def test006_02_my_recipefavor(self, t=500):
-        """收藏菜谱页面测试"""
+        """收藏菜谱页面"""
         time.sleep(3)
         window = self.driver.get_window_size()
         x1 = window['width'] * 0.5  # 起始x坐标
@@ -81,6 +81,36 @@ class MyTests(unittest.TestCase):
             exist3 = Function.isElementExist(self,recipe)
             if exist3:
                 print("已经收藏菜谱")
+
+    def test006_03_my_hamanage(self, t=500):
+        """家电管理页面"""
+        time.sleep(3)
+        window = self.driver.get_window_size()
+        x1 = window['width'] * 0.5  # 起始x坐标
+        y1 = window['height'] * 0.2  # y1坐标，滑动起始点
+        y2 = window['height'] * 0.7  # y2坐标，滑动末尾点
+        self.driver.swipe(x1,y1,x1,y2,duration=500) # 页面下拉
+        time.sleep(2)
+        self.driver.find_element_by_id('com.tencent.mm:id/ka').click() # 点击进入小程序
+        time.sleep(3)
+        #点击进入我的页面
+        self.driver.tap([(933, 2023)],100)
+        time.sleep(3)
+        ha_ma = '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[2]/android.widget.FrameLayout/android.widget.FrameLayout[1]/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout[2]/android.webkit.WebView/android.widget.Button/android.view.View[3]/android.view.View/android.view.View[2]/android.view.View[1]'
+        exist1 = Function.isElementExist(self,ha_ma)
+        if exist1:
+            print("进入“我的”页面")
+        else:
+            print("页面不正确")
+        ha_manage = '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[2]/android.widget.FrameLayout/android.widget.FrameLayout[1]/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout[2]/android.webkit.WebView/android.widget.Button/android.view.View[3]/android.view.View/android.view.View[2]/android.view.View[1]/android.view.View'
+        self.driver.find_element_by_xpath(ha_manage).click()
+        time.sleep(3)
+        ha_setting = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[2]/android.widget.FrameLayout/android.widget.FrameLayout[1]/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout[2]/android.webkit.WebView/android.widget.Button/android.view.View[3]/android.view.View/android.view.View[2]/android.view.View[1]/android.view.View"
+        exist2 = Function.isElementExist(self,ha_setting)
+        if exist2:
+            print("进入家电管理页面")
+        else:
+            print("没有检测到家电管理页面元素")
 
     # 测试结束后执行的方法
     def tearDown(self):
