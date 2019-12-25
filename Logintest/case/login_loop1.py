@@ -45,15 +45,36 @@ class MyTests(unittest.TestCase):
         time.sleep(2)
         self.driver.find_element_by_id('com.tencent.mm:id/ka').click() # 点击进入小程序
         time.sleep(2)
+        #判断是否进入了小程序
+        ha_list_xpath = '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[2]/android.widget.FrameLayout/android.widget.FrameLayout[1]/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout[2]/android.webkit.WebView/android.widget.Button/android.view.View[4]/android.view.View/android.view.View/android.view.View[1]/android.view.View[2]'
+        try:
+            test_halist = self.driver.find_element_by_xpath(ha_list_xpath).get_attribute('text')
+            print('进入到%s列表页面' %(test_halist))
+        except:
+            print("没有找到家电列表的控件")
+
+        #点击添加控件
         add_xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[2]/android.widget.FrameLayout/android.widget.FrameLayout[1]/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout[2]/android.webkit.WebView/android.widget.Button/android.view.View[3]/android.view.View[3]"
-        self.driver.find_element_by_xpath(add_xpath).click()
-        time.sleep(2)
+        try:
+            self.driver.find_element_by_xpath(add_xpath).click()
+            time.sleep(2)
+        except:
+            print("点击'点击添加'控件失败")
+
         login1_xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout[2]/android.widget.RelativeLayout/android.widget.FrameLayout[2]/android.widget.FrameLayout/android.widget.FrameLayout[1]/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout[2]/android.webkit.WebView/android.view.View[2]/android.view.View[2]/android.view.View"
-        self.driver.find_element_by_xpath(login1_xpath).click()
-        time.sleep(2)
+        try:
+            self.driver.find_element_by_xpath(login1_xpath).click()
+            time.sleep(2)
+            print('点击登录控件')
+        except:
+            print('没有点击登录控件')
+
         inputbox_account_xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout[3]/android.widget.RelativeLayout/android.widget.FrameLayout[2]/android.widget.FrameLayout/android.widget.FrameLayout[1]/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout[2]/android.webkit.WebView/android.view.View[2]/android.view.View[1]/android.view.View/android.view.View/android.view.View/android.view.View"
-        self.driver.find_element_by_xpath(inputbox_account_xpath).click()
-        time.sleep(2)
+        try:
+            self.driver.find_element_by_xpath(inputbox_account_xpath).click()
+            time.sleep(2)
+        except:
+            print('点击输入账户')
         #点开数字键盘
         self.driver.tap([(230, 2023),(230, 2023)],100)
         time.sleep(2)
@@ -81,7 +102,10 @@ class MyTests(unittest.TestCase):
         time.sleep(1)
         inputbox_pwd_xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout[2]/android.widget.RelativeLayout/android.widget.FrameLayout[2]/android.widget.FrameLayout/android.widget.FrameLayout[1]/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout[2]/android.webkit.WebView/android.view.View[2]/android.view.View[2]/android.view.View[1]/android.view.View"
         time.sleep(2)
-        self.driver.find_element_by_xpath(inputbox_pwd_xpath).click()
+        try:
+            self.driver.find_element_by_xpath(inputbox_pwd_xpath).click()
+        except:
+            print('没有点击输入密码控件')
         
         time.sleep(2)
         time.sleep(2)
@@ -120,8 +144,51 @@ class MyTests(unittest.TestCase):
         else:
             print("没有找到注销控件")
         self.driver.find_element_by_xpath(logout_xpath).click()
+        time.sleep(2)
+        #判断当前是否注销成功
+        login1_xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout[2]/android.widget.RelativeLayout/android.widget.FrameLayout[2]/android.widget.FrameLayout/android.widget.FrameLayout[1]/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout[2]/android.webkit.WebView/android.view.View[2]/android.view.View[2]/android.view.View"
+        exist1 = MyTests.isElementExist(self,login1_xpath)
+        if exist1:
+            print("找到登录控件，注销成功")
+            #返回到家电列表页面
+            back_id = 'com.tencent.mm:id/pz'
+
+            self.driver.find_element_by_id(back_id).click()
+        else:
+            print("没有找到登录控件，注销失败")
+
     # 测试结束后执行的方法
     def tearDown(self):
+        #点击退出小程序
+        exit_id = 'com.tencent.mm:id/q5'
+        try:
+            self.driver.find_element_by_id(exit_id).click()
+            time.sleep(2)
+        except:
+            pass
+        #点击重新进入小程序
+        window = self.driver.get_window_size()
+        x1 = window['width'] * 0.5  # 起始x坐标
+        y1 = window['height'] * 0.2  # y1坐标，滑动起始点
+        y2 = window['height'] * 0.7  # y2坐标，滑动末尾点
+        self.driver.swipe(x1,y1,x1,y2,500) # 页面下拉
+        time.sleep(2)
+        self.driver.find_element_by_id('com.tencent.mm:id/ka').click()
+        time.sleep(2)
+        #判断当前页面
+        add_xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[2]/android.widget.FrameLayout/android.widget.FrameLayout[1]/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout[2]/android.webkit.WebView/android.widget.Button/android.view.View[3]/android.view.View[3]"
+        login1_xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout[2]/android.widget.RelativeLayout/android.widget.FrameLayout[2]/android.widget.FrameLayout/android.widget.FrameLayout[1]/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout[2]/android.webkit.WebView/android.view.View[2]/android.view.View[2]/android.view.View"
+        logout_xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[2]/android.widget.FrameLayout/android.widget.FrameLayout[1]/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout[2]/android.webkit.WebView/android.widget.Button/android.view.View[3]/android.view.View/android.view.View[4]/android.view.View"
+
+        if MyTests.isElementExist(self,add_xpath):
+            print('注销成功，环境干净')
+        elif MyTests.isElementExist(self,login1_xpath):
+            print('注销成功，环境干净')
+        elif MyTests.isElementExist(self,logout_xpath):
+            print('没有注销')
+            self.driver.find_element_by_xpath(logout_xpath).click()
+        else:
+            pass
         self.driver.quit()
 
 if __name__ == '__main__':
